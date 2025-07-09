@@ -61,7 +61,6 @@ function App() {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <h1 className="text-xl font-bold text-emerald-600 hover:scale-105 transition-transform duration-300 cursor-pointer dark:text-emerald-400">
-                  <Sparkles className="inline-block w-5 h-5 mr-2 animate-pulse text-yellow-500 dark:text-yellow-300" />
                   Ali Tobbah Seidu
                 </h1>
               </div>
