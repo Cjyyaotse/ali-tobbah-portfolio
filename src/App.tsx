@@ -340,7 +340,7 @@ function App() {
                 <div className="flex flex-col md:flex-row">
                   <div className="md:w-1/4 bg-gradient-to-b from-emerald-500 to-teal-500 p-6 flex flex-col items-center justify-center text-center text-white">
                     <GraduationCap className="w-12 h-12 mb-4 animate-bounce" />
-                    <h3 className="text-2xl font-bold">2018 - Present</h3>
+                    <h3 className="text-2xl font-bold">2021 - Present</h3>
                     <p className="text-emerald-100">Ongoing</p>
                   </div>
                   <div className="md:w-3/4 p-8">
@@ -412,7 +412,7 @@ function App() {
                 <div className="flex flex-col md:flex-row">
                   <div className="md:w-1/4 bg-gradient-to-b from-blue-500 to-indigo-500 p-6 flex flex-col items-center justify-center text-center text-white">
                     <School className="w-12 h-12 mb-4" />
-                    <h3 className="text-2xl font-bold">2015 - 2018</h3>
+                    <h3 className="text-2xl font-bold">2017 - 2020</h3>
                     <p className="text-blue-100">Completed</p>
                   </div>
                   <div className="md:w-3/4 p-8">
