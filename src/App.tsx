@@ -276,16 +276,7 @@ function App() {
                       <Lightbulb className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />
                     </div>
                     <p className="text-lg text-gray-700 flex-1 dark:text-gray-300">
-                      I am a dedicated fifth-year pharmacy student at KNUST Pharmacy School with a deep commitment to healthcare and patient welfare. Aspiring to become a clinical pharmacist dedicated to preventing human suffering through evidence-based pharmaceutical care.
-                    </p>
-                  </div>
-
-                  <div className="flex items-start">
-                    <div className="bg-blue-100 p-3 rounded-full mr-4 dark:bg-blue-900/50">
-                      <Target className="w-6 h-6 text-blue-600 dark:text-blue-400" />
-                    </div>
-                    <p className="text-lg text-gray-700 flex-1 dark:text-gray-300">
-                      Passionate about diagnostic medicine and improving health outcomes through comprehensive pharmaceutical knowledge and research. Seeking opportunities to contribute to healthcare advancement while developing expertise in clinical pharmacy practice.
+                      I am a fifth-year pharmacy student at KNUST Pharmacy School with a deep commitment to healthcare and patient welfare. Aspiring to become a clinical pharmacist dedicated to preventing human suffering through evidence-based pharmaceutical care.Passionate about diagnostic medicine and improving health outcomes through comprehensive pharmaceutical knowledge and research. Seeking opportunities to contribute to healthcare advancement while developing expertise in clinical pharmacy practice.
                     </p>
                   </div>
 
@@ -315,6 +306,330 @@ function App() {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Education Section - Redesigned */}
+      <section className="relative py-20 bg-white dark:bg-gray-800 overflow-hidden">
+        {/* Background elements */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute top-0 left-0 w-1/3 h-full bg-gradient-to-r from-emerald-50/30 to-transparent dark:from-emerald-900/10"></div>
+          <div className="absolute bottom-0 right-0 w-1/3 h-full bg-gradient-to-l from-teal-50/30 to-transparent dark:from-teal-900/10"></div>
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+              <span className="inline-flex items-center">
+                <BookOpen className="w-10 h-10 mr-4 text-emerald-600 dark:text-emerald-400 animate-pulse" />
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-emerald-600 dark:from-white dark:to-emerald-400">
+                  Academic Journey
+                </span>
+              </span>
+            </h2>
+            <div className="w-32 h-1.5 bg-emerald-600 dark:bg-emerald-400 mx-auto mb-6 rounded-full"></div>
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+              My educational path from foundational learning to specialized pharmaceutical studies
+            </p>
+          </div>
+
+          <div className="space-y-10">
+            {/* KNUST - Timeline Style */}
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-emerald-400 to-teal-400 rounded-2xl opacity-20 group-hover:opacity-30 blur-md transition-all duration-500"></div>
+              <div className="relative bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300">
+                <div className="flex flex-col md:flex-row">
+                  <div className="md:w-1/4 bg-gradient-to-b from-emerald-500 to-teal-500 p-6 flex flex-col items-center justify-center text-center text-white">
+                    <GraduationCap className="w-12 h-12 mb-4 animate-bounce" />
+                    <h3 className="text-2xl font-bold">2018 - Present</h3>
+                    <p className="text-emerald-100">Ongoing</p>
+                  </div>
+                  <div className="md:w-3/4 p-8">
+                    <h3 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-2">Doctor of Pharmacy (PharmD)</h3>
+                    <p className="text-emerald-600 dark:text-emerald-400 font-semibold mb-4">Kwame Nkrumah University of Science and Technology</p>
+                    <p className="text-gray-700 dark:text-gray-300 mb-6">Current CWA: 70.96</p>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                      <div className="bg-emerald-50 dark:bg-gray-600 p-4 rounded-lg">
+                        <div className="flex items-center mb-2">
+                          <Shield className="w-5 h-5 text-emerald-600 dark:text-emerald-400 mr-2" />
+                          <h4 className="font-semibold text-emerald-600 dark:text-emerald-400">Leadership</h4>
+                        </div>
+                        <ul className="text-gray-700 dark:text-gray-300 space-y-1">
+                          <li className="flex items-start">
+                            <CheckCircle className="w-4 h-4 text-emerald-500 mt-0.5 mr-2 flex-shrink-0" />
+                            <span>SRC Organizing Secretary</span>
+                          </li>
+                          <li className="flex items-start">
+                            <CheckCircle className="w-4 h-4 text-emerald-500 mt-0.5 mr-2 flex-shrink-0" />
+                            <span>The Scientist Club Organizer</span>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div className="bg-emerald-50 dark:bg-gray-600 p-4 rounded-lg">
+                        <div className="flex items-center mb-2">
+                          <Target className="w-5 h-5 text-emerald-600 dark:text-emerald-400 mr-2" />
+                          <h4 className="font-semibold text-emerald-600 dark:text-emerald-400">Core Curriculum</h4>
+                        </div>
+                        <ul className="text-gray-700 dark:text-gray-300 space-y-1">
+                          <li className="flex items-start">
+                            <CheckCircle className="w-4 h-4 text-emerald-500 mt-0.5 mr-2 flex-shrink-0" />
+                            <span>Clinical Pharmacology</span>
+                          </li>
+                          <li className="flex items-start">
+                            <CheckCircle className="w-4 h-4 text-emerald-500 mt-0.5 mr-2 flex-shrink-0" />
+                            <span>Therapeutic Management</span>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div className="bg-emerald-50 dark:bg-gray-600 p-4 rounded-lg">
+                        <div className="flex items-center mb-2">
+                          <Rocket className="w-5 h-5 text-emerald-600 dark:text-emerald-400 mr-2" />
+                          <h4 className="font-semibold text-emerald-600 dark:text-emerald-400">Activities</h4>
+                        </div>
+                        <ul className="text-gray-700 dark:text-gray-300 space-y-1">
+                          <li className="flex items-start">
+                            <CheckCircle className="w-4 h-4 text-emerald-500 mt-0.5 mr-2 flex-shrink-0" />
+                            <span>Clinical Research</span>
+                          </li>
+                          <li className="flex items-start">
+                            <CheckCircle className="w-4 h-4 text-emerald-500 mt-0.5 mr-2 flex-shrink-0" />
+                            <span>Professional Development</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Senior High School */}
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-blue-400 to-indigo-400 rounded-2xl opacity-20 group-hover:opacity-30 blur-md transition-all duration-500"></div>
+              <div className="relative bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300">
+                <div className="flex flex-col md:flex-row">
+                  <div className="md:w-1/4 bg-gradient-to-b from-blue-500 to-indigo-500 p-6 flex flex-col items-center justify-center text-center text-white">
+                    <School className="w-12 h-12 mb-4" />
+                    <h3 className="text-2xl font-bold">2015 - 2018</h3>
+                    <p className="text-blue-100">Completed</p>
+                  </div>
+                  <div className="md:w-3/4 p-8">
+                    <h3 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-2">General Science Program</h3>
+                    <p className="text-blue-600 dark:text-blue-400 font-semibold mb-4">Otumfuo Osei Tutu II College</p>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      <div className="bg-blue-50 dark:bg-gray-600 p-4 rounded-lg">
+                        <div className="flex items-center mb-2">
+                          <Award className="w-5 h-5 text-blue-600 dark:text-blue-400 mr-2" />
+                          <h4 className="font-semibold text-blue-600 dark:text-blue-400">Achievements</h4>
+                        </div>
+                        <ul className="text-gray-700 dark:text-gray-300 space-y-1">
+                          <li className="flex items-start">
+                            <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 mr-2 flex-shrink-0" />
+                            <span>Science Club Member</span>
+                          </li>
+                          <li className="flex items-start">
+                            <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 mr-2 flex-shrink-0" />
+                            <span>Science Competitions</span>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div className="bg-blue-50 dark:bg-gray-600 p-4 rounded-lg">
+                        <div className="flex items-center mb-2">
+                          <Book className="w-5 h-5 text-blue-600 dark:text-blue-400 mr-2" />
+                          <h4 className="font-semibold text-blue-600 dark:text-blue-400">Core Subjects</h4>
+                        </div>
+                        <ul className="text-gray-700 dark:text-gray-300 space-y-1">
+                          <li className="flex items-start">
+                            <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 mr-2 flex-shrink-0" />
+                            <span>Advanced Biology</span>
+                          </li>
+                          <li className="flex items-start">
+                            <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 mr-2 flex-shrink-0" />
+                            <span>Chemistry & Physics</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Junior High School */}
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-purple-400 to-pink-400 rounded-2xl opacity-20 group-hover:opacity-30 blur-md transition-all duration-500"></div>
+              <div className="relative bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300">
+                <div className="flex flex-col md:flex-row">
+                  <div className="md:w-1/4 bg-gradient-to-b from-purple-500 to-pink-500 p-6 flex flex-col items-center justify-center text-center text-white">
+                    <Bookmark className="w-12 h-12 mb-4" />
+                    <h3 className="text-2xl font-bold">2016 - 2017</h3>
+                    <p className="text-purple-100">Completed</p>
+                  </div>
+                  <div className="md:w-3/4 p-8">
+                    <h3 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-2">Basic Education Certificate</h3>
+                    <p className="text-purple-600 dark:text-purple-400 font-semibold mb-4">Salmaniya Islamic JHS</p>
+
+                    <div className="bg-purple-50 dark:bg-gray-600 p-4 rounded-lg max-w-md">
+                      <div className="flex items-center mb-2">
+                        <Star className="w-5 h-5 text-purple-600 dark:text-purple-400 mr-2" />
+                        <h4 className="font-semibold text-purple-600 dark:text-purple-400">Key Activities</h4>
+                      </div>
+                      <ul className="text-gray-700 dark:text-gray-300 space-y-1">
+                        <li className="flex items-start">
+                          <CheckCircle className="w-4 h-4 text-purple-500 mt-0.5 mr-2 flex-shrink-0" />
+                          <span>Islamic Studies</span>
+                        </li>
+                        <li className="flex items-start">
+                          <CheckCircle className="w-4 h-4 text-purple-500 mt-0.5 mr-2 flex-shrink-0" />
+                          <span>Cultural Activities</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Skills Section - Redesigned */}
+      <section id="skills" className="relative py-20 bg-gray-50 dark:bg-gray-800 overflow-hidden">
+        {/* Background decorative elements */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute top-0 left-0 w-1/3 h-full bg-gradient-to-r from-emerald-50/30 to-transparent dark:from-emerald-900/10"></div>
+          <div className="absolute bottom-0 right-0 w-1/3 h-full bg-gradient-to-l from-teal-50/30 to-transparent dark:from-teal-900/10"></div>
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+              <span className="inline-flex items-center">
+                <Zap className="w-10 h-10 mr-4 text-emerald-600 dark:text-emerald-400 animate-pulse" />
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-emerald-600 dark:from-white dark:to-emerald-400">
+                  Core Competencies
+                </span>
+              </span>
+            </h2>
+            <div className="w-32 h-1.5 bg-emerald-600 dark:bg-emerald-400 mx-auto mb-6 rounded-full"></div>
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+              My diverse skill set bridges pharmaceutical expertise with essential professional capabilities
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Pharmaceutical Expertise */}
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-blue-400 to-emerald-400 rounded-2xl opacity-20 group-hover:opacity-30 blur-md transition-all duration-500"></div>
+              <div className="relative bg-white dark:bg-gray-700 rounded-2xl p-8 h-full shadow-xl hover:shadow-2xl transition-all duration-300">
+                <div className="text-center mb-6">
+                  <div className="w-20 h-20 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-200 dark:group-hover:bg-blue-800/40 transition-colors duration-300">
+                    <FlaskConical className="w-8 h-8 text-blue-600 dark:text-blue-400" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">Pharmaceutical Mastery</h3>
+                  <p className="text-gray-600 dark:text-gray-400">Specialized knowledge and technical proficiencies</p>
+                </div>
+                <ul className="space-y-3">
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
+                    <span className="text-gray-700 dark:text-gray-300">Advanced Research Methodology</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
+                    <span className="text-gray-700 dark:text-gray-300">Precision Laboratory Techniques</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
+                    <span className="text-gray-700 dark:text-gray-300">Clinical Assessment & Diagnosis</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
+                    <span className="text-gray-700 dark:text-gray-300">Pharmaceutical Quality Assurance</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
+                    <span className="text-gray-700 dark:text-gray-300">Microscopy & Diagnostic Imaging</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Professional Leadership */}
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-purple-400 to-emerald-400 rounded-2xl opacity-20 group-hover:opacity-30 blur-md transition-all duration-500"></div>
+              <div className="relative bg-white dark:bg-gray-700 rounded-2xl p-8 h-full shadow-xl hover:shadow-2xl transition-all duration-300">
+                <div className="text-center mb-6">
+                  <div className="w-20 h-20 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-purple-200 dark:group-hover:bg-purple-800/40 transition-colors duration-300">
+                    <User className="w-8 h-8 text-purple-600 dark:text-purple-400" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">Leadership & Collaboration</h3>
+                  <p className="text-gray-600 dark:text-gray-400">Team dynamics and organizational leadership</p>
+                </div>
+                <ul className="space-y-3">
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
+                    <span className="text-gray-700 dark:text-gray-300">Strategic Organizational Leadership</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
+                    <span className="text-gray-700 dark:text-gray-300">Cross-functional Team Collaboration</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
+                    <span className="text-gray-700 dark:text-gray-300">Conflict Resolution & Mediation</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
+                    <span className="text-gray-700 dark:text-gray-300">Mentorship & Professional Development</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
+                    <span className="text-gray-700 dark:text-gray-300">Project Management & Coordination</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Patient & Communication */}
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-teal-400 to-emerald-400 rounded-2xl opacity-20 group-hover:opacity-30 blur-md transition-all duration-500"></div>
+              <div className="relative bg-white dark:bg-gray-700 rounded-2xl p-8 h-full shadow-xl hover:shadow-2xl transition-all duration-300">
+                <div className="text-center mb-6">
+                  <div className="w-20 h-20 bg-teal-100 dark:bg-teal-900/30 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-teal-200 dark:group-hover:bg-teal-800/40 transition-colors duration-300">
+                    <MessageSquareHeart className="w-8 h-8 text-teal-600 dark:text-teal-400" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">Patient-Centered Care</h3>
+                  <p className="text-gray-600 dark:text-gray-400">Communication and healthcare delivery skills</p>
+                </div>
+                <ul className="space-y-3">
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
+                    <span className="text-gray-700 dark:text-gray-300">Therapeutic Communication</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
+                    <span className="text-gray-700 dark:text-gray-300">Patient Education & Counseling</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
+                    <span className="text-gray-700 dark:text-gray-300">Cultural Competency in Healthcare</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
+                    <span className="text-gray-700 dark:text-gray-300">Health Literacy Advocacy</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
+                    <span className="text-gray-700 dark:text-gray-300">Empathetic Patient Interactions</span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -651,330 +966,6 @@ function App() {
         </div>
       </section>
 
-      {/* Skills Section - Redesigned */}
-      <section id="skills" className="relative py-20 bg-gray-50 dark:bg-gray-800 overflow-hidden">
-        {/* Background decorative elements */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-0 left-0 w-1/3 h-full bg-gradient-to-r from-emerald-50/30 to-transparent dark:from-emerald-900/10"></div>
-          <div className="absolute bottom-0 right-0 w-1/3 h-full bg-gradient-to-l from-teal-50/30 to-transparent dark:from-teal-900/10"></div>
-        </div>
-
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              <span className="inline-flex items-center">
-                <Zap className="w-10 h-10 mr-4 text-emerald-600 dark:text-emerald-400 animate-pulse" />
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-emerald-600 dark:from-white dark:to-emerald-400">
-                  Core Competencies
-                </span>
-              </span>
-            </h2>
-            <div className="w-32 h-1.5 bg-emerald-600 dark:bg-emerald-400 mx-auto mb-6 rounded-full"></div>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              My diverse skill set bridges pharmaceutical expertise with essential professional capabilities
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Pharmaceutical Expertise */}
-            <div className="relative group">
-              <div className="absolute -inset-1 bg-gradient-to-r from-blue-400 to-emerald-400 rounded-2xl opacity-20 group-hover:opacity-30 blur-md transition-all duration-500"></div>
-              <div className="relative bg-white dark:bg-gray-700 rounded-2xl p-8 h-full shadow-xl hover:shadow-2xl transition-all duration-300">
-                <div className="text-center mb-6">
-                  <div className="w-20 h-20 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-200 dark:group-hover:bg-blue-800/40 transition-colors duration-300">
-                    <FlaskConical className="w-8 h-8 text-blue-600 dark:text-blue-400" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">Pharmaceutical Mastery</h3>
-                  <p className="text-gray-600 dark:text-gray-400">Specialized knowledge and technical proficiencies</p>
-                </div>
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
-                    <span className="text-gray-700 dark:text-gray-300">Advanced Research Methodology</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
-                    <span className="text-gray-700 dark:text-gray-300">Precision Laboratory Techniques</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
-                    <span className="text-gray-700 dark:text-gray-300">Clinical Assessment & Diagnosis</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
-                    <span className="text-gray-700 dark:text-gray-300">Pharmaceutical Quality Assurance</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
-                    <span className="text-gray-700 dark:text-gray-300">Microscopy & Diagnostic Imaging</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Professional Leadership */}
-            <div className="relative group">
-              <div className="absolute -inset-1 bg-gradient-to-r from-purple-400 to-emerald-400 rounded-2xl opacity-20 group-hover:opacity-30 blur-md transition-all duration-500"></div>
-              <div className="relative bg-white dark:bg-gray-700 rounded-2xl p-8 h-full shadow-xl hover:shadow-2xl transition-all duration-300">
-                <div className="text-center mb-6">
-                  <div className="w-20 h-20 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-purple-200 dark:group-hover:bg-purple-800/40 transition-colors duration-300">
-                    <User className="w-8 h-8 text-purple-600 dark:text-purple-400" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">Leadership & Collaboration</h3>
-                  <p className="text-gray-600 dark:text-gray-400">Team dynamics and organizational leadership</p>
-                </div>
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
-                    <span className="text-gray-700 dark:text-gray-300">Strategic Organizational Leadership</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
-                    <span className="text-gray-700 dark:text-gray-300">Cross-functional Team Collaboration</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
-                    <span className="text-gray-700 dark:text-gray-300">Conflict Resolution & Mediation</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
-                    <span className="text-gray-700 dark:text-gray-300">Mentorship & Professional Development</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
-                    <span className="text-gray-700 dark:text-gray-300">Project Management & Coordination</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Patient & Communication */}
-            <div className="relative group">
-              <div className="absolute -inset-1 bg-gradient-to-r from-teal-400 to-emerald-400 rounded-2xl opacity-20 group-hover:opacity-30 blur-md transition-all duration-500"></div>
-              <div className="relative bg-white dark:bg-gray-700 rounded-2xl p-8 h-full shadow-xl hover:shadow-2xl transition-all duration-300">
-                <div className="text-center mb-6">
-                  <div className="w-20 h-20 bg-teal-100 dark:bg-teal-900/30 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-teal-200 dark:group-hover:bg-teal-800/40 transition-colors duration-300">
-                    <MessageSquareHeart className="w-8 h-8 text-teal-600 dark:text-teal-400" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">Patient-Centered Care</h3>
-                  <p className="text-gray-600 dark:text-gray-400">Communication and healthcare delivery skills</p>
-                </div>
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
-                    <span className="text-gray-700 dark:text-gray-300">Therapeutic Communication</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
-                    <span className="text-gray-700 dark:text-gray-300">Patient Education & Counseling</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
-                    <span className="text-gray-700 dark:text-gray-300">Cultural Competency in Healthcare</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
-                    <span className="text-gray-700 dark:text-gray-300">Health Literacy Advocacy</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-emerald-500 dark:text-emerald-400 mt-0.5 mr-2 flex-shrink-0" />
-                    <span className="text-gray-700 dark:text-gray-300">Empathetic Patient Interactions</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Education Section - Redesigned */}
-      <section className="relative py-20 bg-white dark:bg-gray-800 overflow-hidden">
-        {/* Background elements */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-0 left-0 w-1/3 h-full bg-gradient-to-r from-emerald-50/30 to-transparent dark:from-emerald-900/10"></div>
-          <div className="absolute bottom-0 right-0 w-1/3 h-full bg-gradient-to-l from-teal-50/30 to-transparent dark:from-teal-900/10"></div>
-        </div>
-
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              <span className="inline-flex items-center">
-                <BookOpen className="w-10 h-10 mr-4 text-emerald-600 dark:text-emerald-400 animate-pulse" />
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-emerald-600 dark:from-white dark:to-emerald-400">
-                  Academic Journey
-                </span>
-              </span>
-            </h2>
-            <div className="w-32 h-1.5 bg-emerald-600 dark:bg-emerald-400 mx-auto mb-6 rounded-full"></div>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              My educational path from foundational learning to specialized pharmaceutical studies
-            </p>
-          </div>
-
-          <div className="space-y-10">
-            {/* KNUST - Timeline Style */}
-            <div className="relative group">
-              <div className="absolute -inset-1 bg-gradient-to-r from-emerald-400 to-teal-400 rounded-2xl opacity-20 group-hover:opacity-30 blur-md transition-all duration-500"></div>
-              <div className="relative bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300">
-                <div className="flex flex-col md:flex-row">
-                  <div className="md:w-1/4 bg-gradient-to-b from-emerald-500 to-teal-500 p-6 flex flex-col items-center justify-center text-center text-white">
-                    <GraduationCap className="w-12 h-12 mb-4 animate-bounce" />
-                    <h3 className="text-2xl font-bold">2018 - Present</h3>
-                    <p className="text-emerald-100">Ongoing</p>
-                  </div>
-                  <div className="md:w-3/4 p-8">
-                    <h3 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-2">Doctor of Pharmacy (PharmD)</h3>
-                    <p className="text-emerald-600 dark:text-emerald-400 font-semibold mb-4">Kwame Nkrumah University of Science and Technology</p>
-                    <p className="text-gray-700 dark:text-gray-300 mb-6">Current CWA: 70.96</p>
-
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                      <div className="bg-emerald-50 dark:bg-gray-600 p-4 rounded-lg">
-                        <div className="flex items-center mb-2">
-                          <Shield className="w-5 h-5 text-emerald-600 dark:text-emerald-400 mr-2" />
-                          <h4 className="font-semibold text-emerald-600 dark:text-emerald-400">Leadership</h4>
-                        </div>
-                        <ul className="text-gray-700 dark:text-gray-300 space-y-1">
-                          <li className="flex items-start">
-                            <CheckCircle className="w-4 h-4 text-emerald-500 mt-0.5 mr-2 flex-shrink-0" />
-                            <span>SRC Organizing Secretary</span>
-                          </li>
-                          <li className="flex items-start">
-                            <CheckCircle className="w-4 h-4 text-emerald-500 mt-0.5 mr-2 flex-shrink-0" />
-                            <span>The Scientist Club Organizer</span>
-                          </li>
-                        </ul>
-                      </div>
-
-                      <div className="bg-emerald-50 dark:bg-gray-600 p-4 rounded-lg">
-                        <div className="flex items-center mb-2">
-                          <Target className="w-5 h-5 text-emerald-600 dark:text-emerald-400 mr-2" />
-                          <h4 className="font-semibold text-emerald-600 dark:text-emerald-400">Core Curriculum</h4>
-                        </div>
-                        <ul className="text-gray-700 dark:text-gray-300 space-y-1">
-                          <li className="flex items-start">
-                            <CheckCircle className="w-4 h-4 text-emerald-500 mt-0.5 mr-2 flex-shrink-0" />
-                            <span>Clinical Pharmacology</span>
-                          </li>
-                          <li className="flex items-start">
-                            <CheckCircle className="w-4 h-4 text-emerald-500 mt-0.5 mr-2 flex-shrink-0" />
-                            <span>Therapeutic Management</span>
-                          </li>
-                        </ul>
-                      </div>
-
-                      <div className="bg-emerald-50 dark:bg-gray-600 p-4 rounded-lg">
-                        <div className="flex items-center mb-2">
-                          <Rocket className="w-5 h-5 text-emerald-600 dark:text-emerald-400 mr-2" />
-                          <h4 className="font-semibold text-emerald-600 dark:text-emerald-400">Activities</h4>
-                        </div>
-                        <ul className="text-gray-700 dark:text-gray-300 space-y-1">
-                          <li className="flex items-start">
-                            <CheckCircle className="w-4 h-4 text-emerald-500 mt-0.5 mr-2 flex-shrink-0" />
-                            <span>Clinical Research</span>
-                          </li>
-                          <li className="flex items-start">
-                            <CheckCircle className="w-4 h-4 text-emerald-500 mt-0.5 mr-2 flex-shrink-0" />
-                            <span>Professional Development</span>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Senior High School */}
-            <div className="relative group">
-              <div className="absolute -inset-1 bg-gradient-to-r from-blue-400 to-indigo-400 rounded-2xl opacity-20 group-hover:opacity-30 blur-md transition-all duration-500"></div>
-              <div className="relative bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300">
-                <div className="flex flex-col md:flex-row">
-                  <div className="md:w-1/4 bg-gradient-to-b from-blue-500 to-indigo-500 p-6 flex flex-col items-center justify-center text-center text-white">
-                    <School className="w-12 h-12 mb-4" />
-                    <h3 className="text-2xl font-bold">2015 - 2018</h3>
-                    <p className="text-blue-100">Completed</p>
-                  </div>
-                  <div className="md:w-3/4 p-8">
-                    <h3 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-2">General Science Program</h3>
-                    <p className="text-blue-600 dark:text-blue-400 font-semibold mb-4">Otumfuo Osei Tutu II College</p>
-
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div className="bg-blue-50 dark:bg-gray-600 p-4 rounded-lg">
-                        <div className="flex items-center mb-2">
-                          <Award className="w-5 h-5 text-blue-600 dark:text-blue-400 mr-2" />
-                          <h4 className="font-semibold text-blue-600 dark:text-blue-400">Achievements</h4>
-                        </div>
-                        <ul className="text-gray-700 dark:text-gray-300 space-y-1">
-                          <li className="flex items-start">
-                            <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 mr-2 flex-shrink-0" />
-                            <span>Science Club Member</span>
-                          </li>
-                          <li className="flex items-start">
-                            <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 mr-2 flex-shrink-0" />
-                            <span>Science Competitions</span>
-                          </li>
-                        </ul>
-                      </div>
-
-                      <div className="bg-blue-50 dark:bg-gray-600 p-4 rounded-lg">
-                        <div className="flex items-center mb-2">
-                          <Book className="w-5 h-5 text-blue-600 dark:text-blue-400 mr-2" />
-                          <h4 className="font-semibold text-blue-600 dark:text-blue-400">Core Subjects</h4>
-                        </div>
-                        <ul className="text-gray-700 dark:text-gray-300 space-y-1">
-                          <li className="flex items-start">
-                            <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 mr-2 flex-shrink-0" />
-                            <span>Advanced Biology</span>
-                          </li>
-                          <li className="flex items-start">
-                            <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 mr-2 flex-shrink-0" />
-                            <span>Chemistry & Physics</span>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Junior High School */}
-            <div className="relative group">
-              <div className="absolute -inset-1 bg-gradient-to-r from-purple-400 to-pink-400 rounded-2xl opacity-20 group-hover:opacity-30 blur-md transition-all duration-500"></div>
-              <div className="relative bg-white dark:bg-gray-700 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300">
-                <div className="flex flex-col md:flex-row">
-                  <div className="md:w-1/4 bg-gradient-to-b from-purple-500 to-pink-500 p-6 flex flex-col items-center justify-center text-center text-white">
-                    <Bookmark className="w-12 h-12 mb-4" />
-                    <h3 className="text-2xl font-bold">2016 - 2017</h3>
-                    <p className="text-purple-100">Completed</p>
-                  </div>
-                  <div className="md:w-3/4 p-8">
-                    <h3 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-2">Basic Education Certificate</h3>
-                    <p className="text-purple-600 dark:text-purple-400 font-semibold mb-4">Salmaniya Islamic JHS</p>
-
-                    <div className="bg-purple-50 dark:bg-gray-600 p-4 rounded-lg max-w-md">
-                      <div className="flex items-center mb-2">
-                        <Star className="w-5 h-5 text-purple-600 dark:text-purple-400 mr-2" />
-                        <h4 className="font-semibold text-purple-600 dark:text-purple-400">Key Activities</h4>
-                      </div>
-                      <ul className="text-gray-700 dark:text-gray-300 space-y-1">
-                        <li className="flex items-start">
-                          <CheckCircle className="w-4 h-4 text-purple-500 mt-0.5 mr-2 flex-shrink-0" />
-                          <span>Islamic Studies</span>
-                        </li>
-                        <li className="flex items-start">
-                          <CheckCircle className="w-4 h-4 text-purple-500 mt-0.5 mr-2 flex-shrink-0" />
-                          <span>Cultural Activities</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Contact Section - Redesigned */}
       <section id="contact" className="relative py-20 bg-gradient-to-br from-emerald-600 via-emerald-500 to-teal-600 text-white overflow-hidden dark:from-emerald-800 dark:via-emerald-700 dark:to-teal-800">
         {/* Decorative background elements */}
@@ -997,7 +988,7 @@ function App() {
             </h2>
             <div className="w-32 h-1.5 bg-white/80 mx-auto mb-6 rounded-full"></div>
             <p className="text-xl md:text-2xl text-emerald-100 max-w-2xl mx-auto leading-relaxed">
-              Let's connect and discuss opportunities in pharmaceutical care and research
+              Hit me up and let's make the world a better place
             </p>
           </div>
 
@@ -1007,44 +998,25 @@ function App() {
               <h3 className="text-2xl md:text-3xl font-bold mb-8 flex items-center">
                 <Sparkles className="w-8 h-8 mr-3 text-emerald-200 animate-pulse" />
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-emerald-100">
-                  Contact Information
+                  Contact Details
                 </span>
               </h3>
-
-              <div className="space-y-6">
-                {/* Email */}
-                <div className="group flex items-start p-4 rounded-xl hover:bg-white/5 transition-all duration-300">
-                  <div className="bg-emerald-700/50 p-3 rounded-lg mr-4 group-hover:bg-emerald-600 transition-colors duration-300">
-                    <Mail className="w-6 h-6 text-emerald-200" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-lg mb-1">Email</h4>
-                    <a
-                      href="mailto:seidutobbah5@gmail.com"
-                      className="text-emerald-200 hover:text-white transition-colors duration-300 inline-flex items-center"
-                    >
-                      seidutobbah5@gmail.com
-                      <ArrowRight className="ml-2 w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                    </a>
-                  </div>
+              {/* Phone */}
+              <div className="group flex items-start p-4 rounded-xl hover:bg-white/5 transition-all duration-300">
+                <div className="bg-emerald-700/50 p-3 rounded-lg mr-4 group-hover:bg-emerald-600 transition-colors duration-300">
+                  <Phone className="w-6 h-6 text-emerald-200" />
                 </div>
-
-                {/* Phone */}
-                <div className="group flex items-start p-4 rounded-xl hover:bg-white/5 transition-all duration-300">
-                  <div className="bg-emerald-700/50 p-3 rounded-lg mr-4 group-hover:bg-emerald-600 transition-colors duration-300">
-                    <Phone className="w-6 h-6 text-emerald-200" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-lg mb-1">Phone</h4>
-                    <a
-                      href="tel:+233245096290"
-                      className="text-emerald-200 hover:text-white transition-colors duration-300 inline-flex items-center"
-                    >
-                      +233 548043349
-                      <ArrowRight className="ml-2 w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                    </a>
-                  </div>
+                <div>
+                  <h4 className="font-semibold text-lg mb-1">Phone</h4>
+                  <a
+                    href="tel:+233245096290"
+                    className="text-emerald-200 hover:text-white transition-colors duration-300 inline-flex items-center"
+                  >
+                    +233 548043349
+                    <ArrowRight className="ml-2 w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  </a>
                 </div>
+              </div>
 
                 {/* Location */}
                 <div className="group flex items-start p-4 rounded-xl hover:bg-white/5 transition-all duration-300">
@@ -1056,7 +1028,6 @@ function App() {
                     <p className="text-emerald-200">Ejisu, Ashanti Region</p>
                   </div>
                 </div>
-              </div>
             </div>
 
             {/* Contact Form Placeholder - You can add an actual form here later */}
