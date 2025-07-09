@@ -90,14 +90,17 @@ function App() {
                   <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-emerald-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:scale-110 hover:bg-emerald-50 dark:text-gray-300 dark:hover:text-emerald-400 dark:hover:bg-gray-700">
                     About
                   </button>
+                  <button onClick={() => scrollToSection('education')} className="text-gray-700 hover:text-emerald-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:scale-110 hover:bg-emerald-50 dark:text-gray-300 dark:hover:text-emerald-400 dark:hover:bg-gray-700">
+                    Education
+                  </button>
+                  <button onClick={() => scrollToSection('skills')} className="text-gray-700 hover:text-emerald-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:scale-110 hover:bg-emerald-50 dark:text-gray-300 dark:hover:text-emerald-400 dark:hover:bg-gray-700">
+                    Skills
+                  </button>
                   <button onClick={() => scrollToSection('experience')} className="text-gray-700 hover:text-emerald-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:scale-110 hover:bg-emerald-50 dark:text-gray-300 dark:hover:text-emerald-400 dark:hover:bg-gray-700">
                     Experience
                   </button>
                   <button onClick={() => scrollToSection('projects')} className="text-gray-700 hover:text-emerald-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:scale-110 hover:bg-emerald-50 dark:text-gray-300 dark:hover:text-emerald-400 dark:hover:bg-gray-700">
                     Research
-                  </button>
-                  <button onClick={() => scrollToSection('skills')} className="text-gray-700 hover:text-emerald-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:scale-110 hover:bg-emerald-50 dark:text-gray-300 dark:hover:text-emerald-400 dark:hover:bg-gray-700">
-                    Skills
                   </button>
                   <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-emerald-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:scale-110 hover:bg-emerald-50 dark:text-gray-300 dark:hover:text-emerald-400 dark:hover:bg-gray-700">
                     Contact
@@ -128,14 +131,17 @@ function App() {
               <button onClick={() => scrollToSection('about')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-emerald-600 hover:bg-gray-50 rounded-md transition-all duration-300 hover:scale-105 dark:text-gray-300 dark:hover:text-emerald-400 dark:hover:bg-gray-700">
                 About
               </button>
+              <button onClick={() => scrollToSection('education')} className="text-gray-700 hover:text-emerald-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 hover:scale-110 hover:bg-emerald-50 dark:text-gray-300 dark:hover:text-emerald-400 dark:hover:bg-gray-700">
+                Education
+              </button>
+              <button onClick={() => scrollToSection('skills')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-emerald-600 hover:bg-gray-50 rounded-md transition-all duration-300 hover:scale-105 dark:text-gray-300 dark:hover:text-emerald-400 dark:hover:bg-gray-700">
+                Skills
+              </button>
               <button onClick={() => scrollToSection('experience')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-emerald-600 hover:bg-gray-50 rounded-md transition-all duration-300 hover:scale-105 dark:text-gray-300 dark:hover:text-emerald-400 dark:hover:bg-gray-700">
                 Experience
               </button>
               <button onClick={() => scrollToSection('projects')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-emerald-600 hover:bg-gray-50 rounded-md transition-all duration-300 hover:scale-105 dark:text-gray-300 dark:hover:text-emerald-400 dark:hover:bg-gray-700">
                 Research
-              </button>
-              <button onClick={() => scrollToSection('skills')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-emerald-600 hover:bg-gray-50 rounded-md transition-all duration-300 hover:scale-105 dark:text-gray-300 dark:hover:text-emerald-400 dark:hover:bg-gray-700">
-                Skills
               </button>
               <button onClick={() => scrollToSection('contact')} className="block w-full text-left px-3 py-2 text-gray-700 hover:text-emerald-600 hover:bg-gray-50 rounded-md transition-all duration-300 hover:scale-105 dark:text-gray-300 dark:hover:text-emerald-400 dark:hover:bg-gray-700">
                 Contact
@@ -201,22 +207,6 @@ function App() {
                 </div>
               </div>
             </div>
-
-            {/* Image - Now with creative border and floating effect */}
-            <div className="lg:w-1/2 flex justify-center relative">
-              <div className="relative">
-                <div className="w-72 h-72 md:w-80 md:h-80 bg-white rounded-full flex items-center justify-center shadow-2xl overflow-hidden border-4 border-emerald-400/30">
-                  <img
-                    src="/images/white-coat-1.jpg"
-                    alt="Ali Tobbah Seidu"
-                    className="w-full h-full object-cover rounded-full"
-                  />
-                </div>
-                <div className="absolute -z-10 inset-0 rounded-full bg-emerald-400/20 blur-xl animate-pulse"></div>
-                <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-teal-400/20 rounded-full animate-float"></div>
-                <div className="absolute -top-6 -right-6 w-16 h-16 bg-emerald-300/20 rounded-full animate-float-delay"></div>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -251,17 +241,24 @@ function App() {
           </div>
 
           <div className="flex flex-col lg:flex-row items-center gap-12">
-            {/* Image - Enhanced with creative border */}
+            {/* Image - Pentagon container */}
             <div className="w-full lg:w-1/2 flex justify-center relative">
               <div className="relative group">
-                <div className="w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl relative z-10 transform transition-all duration-500 group-hover:scale-105 dark:border-gray-700">
+                {/* Pentagon container with clip-path */}
+                <div className="w-72 h-72 md:w-80 md:h-80 overflow-hidden border-4 border-white shadow-2xl relative z-10 transform transition-all duration-500 group-hover:scale-105 dark:border-gray-700"
+                  style={{
+                    clipPath: 'polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%)'
+                  }}>
                   <img
                     src="/images/white-coat-2.jpg"
                     alt="Ali Tobbah Seidu"
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="absolute -inset-4 bg-gradient-to-br from-emerald-400 to-teal-400 rounded-full opacity-20 blur-xl group-hover:opacity-30 transition-opacity duration-300 dark:from-emerald-600 dark:to-teal-600"></div>
+                <div className="absolute -inset-4 bg-gradient-to-br from-emerald-400 to-teal-400 opacity-20 blur-xl group-hover:opacity-30 transition-opacity duration-300 dark:from-emerald-600 dark:to-teal-600"
+                  style={{
+                    clipPath: 'polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%)'
+                  }}></div>
                 <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-emerald-200/30 rounded-full animate-float dark:bg-emerald-800/30"></div>
                 <div className="absolute -top-6 -right-6 w-16 h-16 bg-teal-200/30 rounded-full animate-float-delay dark:bg-teal-800/30"></div>
               </div>
@@ -313,7 +310,7 @@ function App() {
       </section>
 
       {/* Education Section - Redesigned */}
-      <section className="relative py-20 bg-white dark:bg-gray-800 overflow-hidden">
+      <section id="education" className="relative py-20 bg-white dark:bg-gray-800 overflow-hidden">
         {/* Background elements */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-0 left-0 w-1/3 h-full bg-gradient-to-r from-emerald-50/30 to-transparent dark:from-emerald-900/10"></div>
@@ -1018,16 +1015,16 @@ function App() {
                 </div>
               </div>
 
-                {/* Location */}
-                <div className="group flex items-start p-4 rounded-xl hover:bg-white/5 transition-all duration-300">
-                  <div className="bg-emerald-700/50 p-3 rounded-lg mr-4 group-hover:bg-emerald-600 transition-colors duration-300">
-                    <MapPin className="w-6 h-6 text-emerald-200" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-lg mb-1">Location</h4>
-                    <p className="text-emerald-200">Ejisu, Ashanti Region</p>
-                  </div>
+              {/* Location */}
+              <div className="group flex items-start p-4 rounded-xl hover:bg-white/5 transition-all duration-300">
+                <div className="bg-emerald-700/50 p-3 rounded-lg mr-4 group-hover:bg-emerald-600 transition-colors duration-300">
+                  <MapPin className="w-6 h-6 text-emerald-200" />
                 </div>
+                <div>
+                  <h4 className="font-semibold text-lg mb-1">Location</h4>
+                  <p className="text-emerald-200">Ejisu, Ashanti Region</p>
+                </div>
+              </div>
             </div>
 
             {/* Contact Form Placeholder - You can add an actual form here later */}
